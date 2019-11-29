@@ -1,0 +1,36 @@
+name: random_elon_musk
+description: A Flutter app that shows random, Wlon Musk Quotes
+version: 1.0.0
+author: Fahad Murtaza <info@fahdmurtaza.com>
+homepage: https://github.com/fahd/random_elon_flutter
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.0
+  url_launcher: ^5.0.2
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path_android: "assets/app_icon.png"
+  image_path_ios: "assets/app_icon_ios.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fahdi.jpg
+
+  fonts:
+    - family: Imperator
+      fonts:
+        - asset: assets/fonts/ImperatorBold.ttf
